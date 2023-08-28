@@ -7,9 +7,9 @@ from lib.Customer import Customer
 class TestCustomer(unittest.TestCase):
 
     def setUp(self):
-        self.customer1 = Customer("John", "Doe")
-        self.customer2 = Customer("Jane", "Smith")
-        self.customer3 = Customer("John", "Smith")
+        self.customer1 = Customer("lacie", "kui")
+        self.customer2 = Customer("Jane", "mwangi")
+        self.customer3 = Customer("kerry", "kemmy")
         self.review1 = Review(self.customer1, " LongHorn Steakhouse ", 2)
         self.review2 = Review(self.customer2, " Sonny's BBQ", 4)
         self.review3 = Review(self.customer3, " Olive Garden", 7)
